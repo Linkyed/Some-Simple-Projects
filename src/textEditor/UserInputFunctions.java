@@ -16,7 +16,7 @@ public class UserInputFunctions {
 			userString = input.nextLine();
 		}
 		System.out.println();
-		return userString;
+		return userString.strip();
 	}
 	
 	/** Function to show a message and get a input typed by the user in Int type
@@ -31,7 +31,7 @@ public class UserInputFunctions {
 		while (checkValidation) {
 			try {
 				System.out.print(textToShow);
-				String userInput = input.nextLine();
+				String userInput = input.nextLine().strip();
 				userInt = Integer.parseInt(userInput);
 				if (userInt >= minimalValue && userInt <= maxValue) {
 					checkValidation = false;					
