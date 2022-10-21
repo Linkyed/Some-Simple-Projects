@@ -42,7 +42,6 @@ public class UserInputFunctions {
 				System.out.println("Only type numbers please");
 			}
 		}
-	input.close();
 	return userInt;
 	}
 	
