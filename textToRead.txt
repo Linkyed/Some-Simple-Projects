@@ -1,0 +1,18 @@
+This tutorial introduces the basics of creating a very simple Java program. When learning a new programming language, it is traditional to start with a program called "Hello World." All the program does is write the text "Hello World!" to the command or shell window.
+
+The basic steps to create the Hello World program are: write the program in Java, compile the source code, and run the program. All Java programs are written in plain text — therefore you don't need any special software. For your first program, open up the simplest text editor you have on your computer, likely Notepad.
+
+The entire program looks like this:
+
+While you could cut and paste the above code into your text editor, it’s better to get into the habit of typing it in. It will help you learn Java more quickly because you will get a feel for how programs are written, and best of all, you will make mistakes! This may sound odd, but each mistake you make helps you to become a better programmer in the long run. Just remember that your program code must match the example code, and you’ll be fine.
+
+Note the lines with "//" above. These are comments in Java, and the compiler ignores them.
+
+Line //1 is a comment, introducing this program.
+Line //2 creates a class HelloWorld. All code needs to be in a class in order for the Java runtime engine to run it. Note that the entire class is defined within enclosing curly braces (on line /2 and line //6).
+Line //3 is the main() method, which is always the entry point into a Java program. It also is defined within curly braces (on line //3 and line //5). Let's break it down:
+public: This method is public and therefore available to anyone.
+static: This method can be run without having to create an instance of the class HelloWorld.​
+void: This method does not return anything.
+(String[] args): This method takes a String argument.
+Line //4 writes "Hello World" to the console.
