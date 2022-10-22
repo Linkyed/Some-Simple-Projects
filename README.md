@@ -6,3 +6,6 @@ Added the first 4 options to edit a text, now the text can be edited to change a
 
 # Day 2
 Today i added the search system to the script, now the user can type a word or a part of one and then the script will search for all the words to find when the choosed word appear and how many times it appear. And after that i created a way to the user to insert a string, loading a .txt file, now if the user has a .txt file with a text in, he can copy the path of the file and send to the script that might read the file and do all the editions/searching that it also do with a typed text in the own script
+
+# Day 3
+Now the after the user edition on the text, he can choose to save the text in a .txt file, he will need to choose the name of the file and the path where it will be saved. And i added some test's in the code to not get erros if the script can not find a file or can not create one.
